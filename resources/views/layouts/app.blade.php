@@ -13,6 +13,7 @@
         <!-- Styles -->
         <link rel="stylesheet" href="{{ asset('css/app.css') }}">
         <link rel="stylesheet" href="{{ asset('public/css/admin.css') }}">
+        <!-- @vite(['resources/css/app.css', 'resources/js/app.js'])-->
 
         <!-- Scripts -->
         <script src="{{ asset('js/app.js') }}" defer></script>
