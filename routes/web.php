@@ -1,6 +1,6 @@
 <?php
 
-use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\Route;   
 
 /*
 |--------------------------------------------------------------------------
@@ -21,6 +21,6 @@ Route::get('/dashboard', function () {
 
 Route::middleware(['auth','role:admin'])->group(function(){
     Route::get('/admin', function () {
-        return view('admin');})->middleware(['auth'])->name('admin');
+        return view('adminpage');})->middleware(['auth'])->name('admin');
 });
 require __DIR__.'/auth.php';
